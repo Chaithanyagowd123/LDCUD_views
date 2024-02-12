@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% extends 'app/dummy.html' %}
+{% block title %}
     <title>Document</title>
-</head>
-<body>
 
-   
+    {% endblock %}
+</head>
+
+
+     {% block body_block %}
         <center>
             <h1>List OF School Objects</h1>
     
@@ -16,6 +15,8 @@
             {% endfor %}
   
     </center>
+
+    {% endblock %}
     
 </body>
 </html>
